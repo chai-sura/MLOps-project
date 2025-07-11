@@ -7,4 +7,3 @@ This project demonstrates an end-to-end data pipeline using Apache Airflow, Dock
 - Python 3.8+
 - Docker & Docker Compose
 - Virtual Environment
-# MLOps Project
