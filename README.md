@@ -13,13 +13,13 @@ Virtual Environment
 Kubernetes
 Kubectl
 
-Set up Environment
+## Set up Environment
 
 sudo apt update && sudo apt upgrade -y
 sudo apt install python3-pip -y
 
 
-Create Python Virtual Environment & Activate it
+## Create Python Virtual Environment & Activate it
 
 python -m mlops_venv venv
 source venv/bin/activate
@@ -27,7 +27,7 @@ source venv/bin/activate
 
 pip3 install requirements.txt
 
-Set up & Initialize the Airflow 
+## Set up & Initialize the Airflow 
 
 airflow version
 
@@ -43,12 +43,12 @@ echo $AIRFLOW_HOME
 vim ~/airflow/airflow.cfg
 
 
-Create Airflow DAGS Directory
+## Create Airflow DAGS Directory
 
 mkdir -p ~/airflow/dags
 
 
-Make sure the DAG is in the Airflow DAGS Directory
+## Make sure the DAG is in the Airflow DAGS Directory
 
 cp iris_model_pipeline_dag.py ~/airflow/dags/
 
@@ -61,10 +61,9 @@ airflow standalone
 
 
 On your browser: 
-
 localhost:8080
 
-Get Admin User Password: 
+## Get Admin User Password: 
 
 cat ~/airflow/simple_auth_manager_passwords.json.generated
 
