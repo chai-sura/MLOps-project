@@ -108,9 +108,7 @@ docker build -t ml-airflow-streamlit-app .
 ### Create PAT and Log in to Your DockerHub Account
 If it fails, go to your DockerHub account and create a Personal Access Token (PAT) - This will be your login password
 
-docker login -u iquantc
-
-
+docker login -u chaitanyasura
 
 ### Try Docker Build Again
 
