@@ -1,0 +1,3 @@
+venv/
+mlops_venv/
+.env/
